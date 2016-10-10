@@ -4,7 +4,8 @@ export default React.createClass({
   render() {
     return (
       <div>
-        <h2>Home</h2>
+        <h3>{this.props.date}</h3>
+        {this.props.children}
       </div>
     )
   }
